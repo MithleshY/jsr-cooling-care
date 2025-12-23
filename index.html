@@ -22,6 +22,7 @@
 
     <!-- Font Awesome (for icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -230,27 +231,29 @@
                             <p>prakashjmt9234@gmail.com</p>
                         </div>
                     </div>
-                    <div class="info-item">
+                    <a href="https://maps.app.goo.gl/pYmnM5QYJ3s8hKP37" target="_blank" class="info-item">
                         <i class="fa-solid fa-location-dot"></i>
                         <div>
                             <h4>Visit Us</h4>
-                            <p>Near Gurudwara, Kitadih,<br>Jamshedpur, Jharkhand,<br>India</p>
+                            <p>Near Gurudwara, Kitadih,<br>Jamshedpur 831002,<br>Jharkhand, India</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
-                <form class="contact-form" action="#" method="POST">
+
+                <!-- Formspree Integration: Simple & No SDK needed -->
+                <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
                     <div class="form-group">
                         <label for="name">Your Name</label>
-                        <input type="text" id="name" placeholder="John Doe" required>
+                        <input type="text" id="name" name="from_name" placeholder="Prakash ..." required>
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" placeholder="+91 ..." required>
+                        <input type="tel" id="phone" name="phone_number" placeholder="+91 ..." required>
                     </div>
                     <div class="form-group">
                         <label for="service">Service Needed</label>
-                        <select id="service">
+                        <select id="service" name="service_type">
                             <option value="ac">Air Conditioning</option>
                             <option value="chiller">Chiller Plant</option>
                             <option value="fridge">Refrigerator</option>
@@ -259,10 +262,23 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" rows="4" placeholder="Describe your issue..."></textarea>
+                        <textarea id="message" name="message" rows="4" placeholder="Describe your issue..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <div id="form-status" class="form-status"></div>
                 </form>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div class="contact-map" style="margin-top: 50px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.120025965649!2d86.19165107406214!3d22.76092822605809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5fdc94c961943%3A0xf94e627290d5a639!2sJai%20shree%20ram%20cooling%20care!5e0!3m2!1sen!2sin!4v1734924209590!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0; border-radius: 20px; box-shadow: var(--shadow-md);"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </section>

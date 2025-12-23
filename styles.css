@@ -509,6 +509,58 @@ img {
     width: 100%;
 }
 
+.btn i {
+    margin-left: 10px;
+    transition: var(--transition);
+}
+
+.btn:hover i {
+    transform: translateX(5px);
+}
+
+.btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Form Status Messages */
+.form-status {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    display: none;
+    grid-column: span 2;
+    animation: fadeIn 0.5s ease;
+}
+
+.form-status.success {
+    display: block;
+    background-color: #e7f7ed;
+    color: #1e7e34;
+    border: 1px solid #c3e6cb;
+}
+
+.form-status.error {
+    display: block;
+    background-color: #fff5f5;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Footer */
 .footer {
     background: var(--dark-text);
