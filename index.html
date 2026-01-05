@@ -5,386 +5,324 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Jai Shree Ram Cooling Care - Premium Air Conditioning, Chiller, and Refrigerator repair and installation services. Expert cooling solutions for home and business.">
+        content="Jai Shree Ram Cooling Care - Industrial & Residential Air Conditioner, Chiller and Refrigerator services. Expert cooling solutions.">
     <meta name="keywords"
-        content="AC repair, chiller service, refrigerator repair, cooling solutions, Jai Shree Ram Cooling Care, HVAC">
+        content="Air Conditioner, Chiller, Refrigerator installation, maintenance & repairs, industrial & residential cooling services, serving Jamshedpur & surrounding areas">
     <title>Jai Shree Ram Cooling Care | Expert AC & Cooling Services</title>
 
-    <!-- Google Fonts -->
+    <!-- Preconnect & Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
-
-    <!-- Font Awesome (for icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header class="header">
-        <div class="container header-container">
-            <a href="#" class="logo">
-                <i class="fa-solid fa-snowflake"></i> JSR Cooling Care
-            </a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#contact" class="nav-link btn-header">Contact Us</a></li>
-                </ul>
-                <div class="mobile-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <body>
+        <!-- Navigation -->
+        <header class="header">
+            <div class="container header-container">
+                <a href="#" class="logo"><i class="fa-solid fa-snowflake"></i> JSR Cooling Care</a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
 
-    <!-- Hero Slider -->
-    <section id="home" class="hero-slider">
-        <div class="slider-wrapper">
-            <!-- Slide 1: Main -->
-            <div class="slide active">
-                <div class="slide-bg" style="background-image: url('assets/images/hero_bg.png');"></div>
-                <div class="hero-overlay"></div>
-                <div class="container hero-content">
-                    <h1 class="hero-title">Mastering the Art of <br><span class="text-gradient">Cooling
-                            Excellence</span>
-                    </h1>
-                    <p class="hero-subtitle">Your trusted partner for premium Air Conditioning, Chiller, and
-                        Refrigerator
-                        maintenance. We bring comfort to your space.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Book a Service</a>
-                        <a href="#services" class="btn btn-outline">Explore Services</a>
-                    </div>
-                </div>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#clients" class="nav-link">Clients</a></li>
+                        <li><a href="#contact" class="nav-link btn-header">Contact Us</a></li>
+                    </ul>
+                    <div class="mobile-toggle"><i class="fa-solid fa-bars"></i></div>
+                </nav>
             </div>
+        </header>
 
-            <!-- Slide 2: Panel AC -->
-            <div class="slide">
-                <div class="slide-bg" style="background-image: url('assets/images/panel_ac.png');"></div>
-                <div class="hero-overlay"></div>
-                <div class="container hero-content">
-                    <h1 class="hero-title">Expert <span class="text-gradient">Panel AC</span> Solutions</h1>
-                    <p class="hero-subtitle">Specialized repair and maintenance for CNC and Industrial Panel Air
-                        Conditioners. Keeping your machinery running cool.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get Panel Support</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 3: Chillers -->
-            <div class="slide">
-                <div class="slide-bg" style="background-image: url('assets/images/oil_chiller.png');"></div>
-                <div class="hero-overlay"></div>
-                <div class="container hero-content">
-                    <h1 class="hero-title">Industrial <span class="text-gradient">Chiller Services</span></h1>
-                    <p class="hero-subtitle">Premium care for Water and Oil Chillers. Ensuring optimal performance for
-                        your heavy-duty industrial processes.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Request Quote</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 4: Commercial -->
-            <div class="slide">
-                <div class="slide-bg" style="background-image: url('assets/images/commercial_ac.png');"></div>
-                <div class="hero-overlay"></div>
-                <div class="container hero-content">
-                    <h1 class="hero-title">Ductable & <span class="text-gradient">Central AC</span></h1>
-                    <p class="hero-subtitle">Complete climate control solutions for offices, showrooms, and large
-                        commercial spaces.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Commercial Inquiry</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Logo Watermark -->
-        <div class="slider-logo-watermark">
-            <i class="fa-solid fa-snowflake"></i>
-            <span>JSR Cooling Care</span>
-        </div>
-
-        <!-- Controls -->
-        <button class="slider-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
-        <button class="slider-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
-
-        <!-- Indicators -->
-        <div class="slider-indicators">
-            <span class="indicator active" data-slide="0"></span>
-            <span class="indicator" data-slide="1"></span>
-            <span class="indicator" data-slide="2"></span>
-            <span class="indicator" data-slide="3"></span>
-        </div>
-    </section>
-
-    <!-- Features / Highlights -->
-    <section class="features">
-        <div class="container features-grid">
-            <div class="feature-item">
-                <i class="fa-solid fa-clock"></i>
-                <h3>24/7 Support</h3>
-                <p>Always available for emergency repairs.</p>
-            </div>
-            <div class="feature-item">
-                <i class="fa-solid fa-medal"></i>
-                <h3>Expert Technicians</h3>
-                <p>Certified professionals you can trust.</p>
-            </div>
-            <div class="feature-item">
-                <i class="fa-solid fa-tag"></i>
-                <h3>Fair Pricing</h3>
-                <p>Transparent quotes, no hidden fees.</p>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- Services Section -->
-    <section id="services" class="services section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Specialized Cooling Services</h2>
-                <p class="section-desc">Expert solutions for every cooling need, from domestic units to heavy-duty
-                    industrial machinery.</p>
-            </div>
-
-
-
-
-            <div class="services-grid">
-
-
-                <!-- Panel AC -->
-                <div class="service-card">
-                    <div class="card-image">
-                        <img src="assets/images/panel_ac.png" alt="Industrial Panel AC Service">
-                    </div>
-                    <div class="card-content">
-                        <div class="icon-box">
-                            <i class="fa-solid fa-microchip"></i>
-                        </div>
-                        <h3>Panel AC</h3>
-                        <p>Specialized cooling for CNC machine panels and electrical cabinets. We handle all types panel
-                            ac sell, repair and spare parts sell.</p>
-                        <a href="#contact" class="card-link">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Oil Chiller -->
-                <div class="service-card">
-                    <div class="card-image">
-                        <img src="assets/images/oil_chiller.png" alt="Industrial Oil Chiller Service India">
-                    </div>
-                    <div class="card-content">
-                        <div class="icon-box">
-                            <i class="fa-solid fa-oil-can"></i>
-                        </div>
-                        <h3>Industrial Chillers</h3>
-                        <p>Specialized in water and oil chiller maintenance. We handle all types industrial chiller
-                            sell, repair and spare parts sell.</p>
-                        <a href="#contact" class="card-link">Request Quote <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Ductable AC -->
-                <div class="service-card">
-                    <div class="card-image">
-                        <img src="assets/images/commercial_ac.png" alt="Ductable AC Installation India">
-                    </div>
-                    <div class="card-content">
-                        <div class="icon-box">
-                            <i class="fa-solid fa-fan"></i>
-                        </div>
-                        <h3>Ductable & Central AC</h3>
-                        <p>Corporate installation and AMC for ductable split units. Ideal for large halls, offices, and
-                            garment manufacturing units.</p>
-                        <a href="#contact" class="card-link">Book Now <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Split & Window AC -->
-                <div class="service-card">
-                    <div class="card-image">
-                        <img src="assets/images/split_ac.png" alt="Split and Window AC Service Delhi/NCR">
-                    </div>
-                    <div class="card-content">
-                        <div class="icon-box">
-                            <i class="fa-solid fa-snowflake"></i>
-                        </div>
-                        <h3>Split & Window AC</h3>
-                        <p>Quick doorstep service for all home brands. Deep wet/jet cleaning, gas charging (R22/R32),
-                            and PCB repair at genuine rates.</p>
-                        <a href="#contact" class="card-link">Book Now <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <!-- Spare Parts -->
-                <div class="service-card">
-                    <div class="card-image">
-                        <img src="assets/images/spare_parts.png" alt="AC Spare Parts Shop India">
-                    </div>
-                    <div class="card-content">
-                        <div class="icon-box">
-                            <i class="fa-solid fa-gears"></i>
-                        </div>
-                        <h3>Genuine Spare Parts</h3>
-                        <p>Bulk supply of compressors, capacitors, fan motors, and refrigerant gases. 100% authentic
-                            parts for all major brands.</p>
-                        <a href="#contact" class="card-link">Contact Sales <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- About Section -->
-    <section id="about" class="about section-padding">
-        <div class="container about-container">
-            <div class="about-text">
-                <h2 class="section-title">Why Choose <span class="brand-color">JSR Cooling Care</span>?</h2>
-                <p>At Jai Shree Ram Cooling Care, we believe that comfort is a necessity, not a luxury. With years of
-                    experience in the HVAC and refrigeration industry, we have established ourselves as a beacon of
-                    reliability and quality.</p>
-                <ul class="about-list">
-                    <li><i class="fa-solid fa-check-circle"></i> 10+ Years of Industry Experience</li>
-                    <li><i class="fa-solid fa-check-circle"></i> 100% Satisfaction Guarantee</li>
-                    <li><i class="fa-solid fa-check-circle"></i> Modern Tools & Techniques</li>
-                </ul>
-                <a href="#contact" class="btn btn-primary">Contact Us Today</a>
-            </div>
-            <div class="about-image">
-                <div class="image-wrapper">
-                    <img src="assets/images/specialty_cooling.png" alt="About our cooling expertise">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section-padding">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-desc">Ready to experience the best cooling service? Drop us a message.</p>
-            </div>
-
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fa-solid fa-phone"></i>
-                        <div>
-                            <h4>Call Us</h4>
-                            <p>+91 9234010018</p>
+        <!-- Hero Slider -->
+        <section id="home" class="hero-slider">
+            <div class="slider-wrapper">
+                <!-- Slides -->
+                <div class="slide active">
+                    <div class="slide-bg" style="background-image: url('assets/images/hero_main.png');"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Mastering the Art of <br><span class="text-gradient">Cooling
+                                Excellence</span></h1>
+                        <p class="hero-subtitle">Your trusted partner for Air Conditioner, Chiller and Refrigerator
+                            installation and maintenance. Comfort delivered.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary">Book a Service</a>
+                            <a href="#about" class="btn btn-outline">Learn More</a>
                         </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fa-solid fa-envelope"></i>
-                        <div>
-                            <h4>Email Us</h4>
-                            <p>prakashjmt9234@gmail.com</p>
-                        </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-bg" style="background-image: url('assets/images/service_chiller_plant.png');">
                     </div>
-                    <a href="https://maps.app.goo.gl/pYmnM5QYJ3s8hKP37" target="_blank" class="info-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <div>
-                            <h4>Visit Us</h4>
-                            <p>Near Gurudwara, Kitadih,<br>Jamshedpur 831002,<br>Jharkhand, India</p>
-                        </div>
-                    </a>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Industrial <span class="text-gradient">Chiller Services</span></h1>
+                        <p class="hero-subtitle">Specialized installation and maintenance for Water and Oil Chillers in
+                            industrial plants. Ensuring peak operational performance.
+                        </p>
+                        <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Request Quote</a></div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-bg" style="background-image: url('assets/images/hero_panel.png');"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Expert <span class="text-gradient">Panel AC</span> Solutions</h1>
+                        <p class="hero-subtitle">Specialized industrial cooling for CNC and machinery. Keeping you
+                            operational.</p>
+                        <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Get Support</a></div>
+                    </div>
                 </div>
 
 
-                <!-- Formspree Integration: Simple & No SDK needed -->
-                <form class="contact-form" id="contact-form" action="https://formspree.io/f/mykgbaza" method="POST">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="from_name" placeholder="Prakash ..." required>
+                <div class="slide">
+                    <div class="slide-bg" style="background-image: url('assets/images/service_commercial_ac.png');">
                     </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone_number" placeholder="+91 ..." required>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Ductable & <span class="text-gradient">Central AC</span></h1>
+                        <p class="hero-subtitle">Complete climate control solutions for commercial spaces and offices.
+                        </p>
+                        <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Inquire Now</a></div>
                     </div>
-                    <div class="form-group">
-                        <label for="service">Service Needed</label>
-                        <select id="service" name="service_type">
+                </div>
+
+                <div class="slide">
+                    <div class="slide-bg" style="background-image: url('assets/images/service_ac_split.png');"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Split & <span class="text-gradient">Window AC</span></h1>
+                        <p class="hero-subtitle">Expert installation and maintenance for Split and Window ACs. Keep your
+                            home cool and comfortable.</p>
+                        <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Book Now</a></div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slide-bg" style="background-image: url('assets/images/spare_parts.png');"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="container hero-content">
+                        <h1 class="hero-title">Genuine <span class="text-gradient">Spare Parts</span></h1>
+                        <p class="hero-subtitle">Bulk supply of compressors, fans, motors, refrigerant gases, and more
+                            for
+                            all major
+                            appliances.</p>
+                        <div class="hero-buttons"><a href="#contact" class="btn btn-primary">Contact Sales</a></div>
+                    </div>
+                </div>
+
+                <!-- Logo Watermark -->
+                <div class="slider-logo-watermark">
+                    <i class="fa-solid fa-snowflake"></i>
+                    <span>JSR Cooling Care</span>
+                </div>
+
+                <!-- Controls -->
+                <button class="slider-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+
+                <!-- Indicators -->
+                <div class="slider-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                    <span class="indicator" data-slide="4"></span>
+                    <span class="indicator" data-slide="5"></span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section id="clients" class="clients section-padding reveal">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Trusted <span class="brand-color">Clients</span></h2>
+                    <p class="section-desc">Proudly serving leading industries and businesses in the region.</p>
+                </div>
+                <div class="marquee-container">
+                    <div class="marquee-content">
+                        <a href="https://zenithforge.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/zenith_forge.png" alt="Zenith Forge"
+                                class="client-logo"><span>ZENITH
+                                FORGE</span></a>
+                        <a href="http://www.iforge.co.in" target="_blank" class="client-card"><img
+                                src="assets/images/clients/industrial_forge.png" alt="Industrial Forge"
+                                class="client-logo"><span>Industrial Forge</span></a>
+                        <a href="http://gmiscl.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/gm_iron_steel.png" alt="GM Iron & Steel"
+                                class="client-logo"><span>GM
+                                IRON & STEEL</span></a>
+                        <a href="https://sswlindia.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/sswl.jpg" alt="SSWL" class="client-logo"><span>SSWL
+                                India</span></a>
+                        <a href="https://www.rungtasteel.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/rungta_steel.png" alt="Rungta Steel" class="client-logo"
+                                style="background:#333;padding:5px;border-radius:4px;"><span>RUNGTA STEEL</span></a>
+                        <a href="http://www.omniauto.in" target="_blank" class="client-card"><img
+                                src="assets/images/clients/omni_auto.png" alt="Omni Auto" class="client-logo"><span>Omni
+                                Auto
+                                Ltd.</span></a>
+                        <a href="#" class="client-card"><span>ASHOK ENTERPRISE</span></a>
+                        <a href="#" class="client-card"><span>OMEGA AUTOMOTIVE</span></a>
+                        <a href="#" class="client-card"><span>Pawan Auto PVT. LTD.</span></a>
+
+                        <!-- Duplicate for seamless loop -->
+                        <a href="https://zenithforge.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/zenith_forge.png" alt="Zenith Forge"
+                                class="client-logo"><span>ZENITH
+                                FORGE</span></a>
+                        <a href="http://www.iforge.co.in" target="_blank" class="client-card"><img
+                                src="assets/images/clients/industrial_forge.png" alt="Industrial Forge"
+                                class="client-logo"><span>Industrial Forge</span></a>
+                        <a href="http://gmiscl.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/gm_iron_steel.png" alt="GM Iron & Steel"
+                                class="client-logo"><span>GM
+                                IRON & STEEL</span></a>
+                        <a href="https://sswlindia.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/sswl.jpg" alt="SSWL" class="client-logo"><span>SSWL
+                                India</span></a>
+                        <a href="https://www.rungtasteel.com" target="_blank" class="client-card"><img
+                                src="assets/images/clients/rungta_steel.png" alt="Rungta Steel" class="client-logo"
+                                style="background:#333;padding:5px;border-radius:4px;"><span>RUNGTA STEEL</span></a>
+                        <a href="http://www.omniauto.in" target="_blank" class="client-card"><img
+                                src="assets/images/clients/omni_auto.png" alt="Omni Auto" class="client-logo"><span>Omni
+                                Auto
+                                Ltd.</span></a>
+                        <a href="#" class="client-card"><span>ASHOK ENTERPRISE</span></a>
+                        <a href="#" class="client-card"><span>OMEGA AUTOMOTIVE</span></a>
+                        <a href="#" class="client-card"><span>Pawan Auto PVT. LTD.</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features reveal">
+            <div class="container features-grid">
+                <div class="feature-item"><i class="fa-solid fa-clock"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Always available for emergency repairs.</p>
+                </div>
+                <div class="feature-item"><i class="fa-solid fa-medal"></i>
+                    <h3>Expert Staff</h3>
+                    <p>Certified professionals you can trust.</p>
+                </div>
+                <div class="feature-item"><i class="fa-solid fa-tag"></i>
+                    <h3>Fair Pricing</h3>
+                    <p>Transparent quotes, no hidden fees.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container about-container">
+                <div class="about-text reveal-left">
+                    <h2 class="section-title">Why Choose <span class="brand-color">JSR Cooling Care</span>?</h2>
+                    <p>We believe comfort is a necessity, not a luxury. With years of experience, we provide reliable
+                        cooling solutions for home and industry.</p>
+                    <ul class="about-list">
+                        <li><i class="fa-solid fa-check-circle"></i> 10+ Years of Industry Experience</li>
+                        <li><i class="fa-solid fa-check-circle"></i> 100% Satisfaction Guarantee</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Modern Tools & Techniques</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Contact Us Today</a>
+                </div>
+                <div class="about-image reveal-right">
+                    <div class="image-wrapper"><img src="assets/images/service_ac_split.png"
+                            alt="Premium Cooling Service"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-desc">Ready to experience the best cooling service? Drop us a message.</p>
+                </div>
+                <form class="contact-form reveal-right" id="contact-form" action="https://formspree.io/f/mykgbaza"
+                    method="POST">
+                    <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="from_name"
+                            placeholder="Prakash ..." required></div>
+                    <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone"
+                            name="phone_number" placeholder="+91 ..." required></div>
+                    <div class="form-group"><label for="service">Service</label><select id="service"
+                            name="service_type">
                             <option value="ac">Air Conditioning</option>
                             <option value="chiller">Chiller Plant</option>
                             <option value="fridge">Refrigerator</option>
                             <option value="other">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Describe your issue..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
-                        <span class="btn-text">Send Message</span>
-                        <i class="fa-solid fa-paper-plane"></i>
-                    </button>
+                        </select></div>
+                    <div class="form-group"><label for="message">Message</label><textarea id="message" name="message"
+                            rows="4" placeholder="Describe your issue..."></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-block" id="submit-btn"><span class="btn-text">Send
+                            Message</span> <i class="fa-solid fa-paper-plane"></i></button>
                     <div id="form-status" class="form-status"></div>
                 </form>
             </div>
+        </section>
 
-            <!-- Google Maps Embed -->
-            <div class="contact-map" style="margin-top: 50px;">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.120025965649!2d86.19165107406214!3d22.76092822605809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5fdc94c961943%3A0xf94e627290d5a639!2sJai%20shree%20ram%20cooling%20care!5e0!3m2!1sen!2sin!4v1734924209590!5m2!1sen!2sin"
-                    width="100%" height="450" style="border:0; border-radius: 20px; box-shadow: var(--shadow-md);"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
-    </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3>JSR Cooling Care</h3>
+                        <p>Providing top-notch cooling solutions for homes and industries. Reliability meets excellence
+                            in
+                            every service.</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>JSR Cooling Care</h3>
-                    <p>Providing top-notch cooling solutions for homes and industries.</p>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Support</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-phone"></i> +91 9234010018</li>
+                            <li><i class="fa-solid fa-envelope"></i> prakashjmt9234@gmail.com</li>
+                            <li><a class="fa-solid fa-location-dot" href="https://maps.app.goo.gl/pYmnM5QYJ3s8hKP37"
+                                    target="_blank"></a> Near Gurudwara, Kitadih, Jamshedpur 831002 </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Jai Shree Ram Cooling Care. Designed for Excellence.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Jai Shree Ram Cooling Care. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="script.js"></script>
-</body>
+        <!-- Floating WhatsApp -->
+        <a href="https://wa.me/919234010018" class="whatsapp-float" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i><span>Chat with Us</span>
+        </a>
+
+        <!-- Scripts -->
+        <script type="module" src="script.js"></script>
+    </body>
 
 </html>

@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #005f99;
+    --primary-dark: #003f66;
+    --accent-color: #00b4d8;
+    --light-bg: #f0f9ff;
+    --white: #ffffff;
+    --dark-text: #1a1a1a;
+    --gray-text: #666666;
+    --gradient-main: linear-gradient(135deg, #005f99 0%, #00b4d8 100%);
+    --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.12);
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
