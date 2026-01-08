@@ -31,7 +31,7 @@
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .features-grid,
@@ -42,7 +42,8 @@
         grid-template-columns: 1fr;
     }
 
-    .whatsapp-float span {
+    .whatsapp-float span,
+    .call-float span {
         display: none;
     }
 
@@ -50,5 +51,23 @@
         padding: 15px;
         bottom: 20px;
         right: 20px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+    }
+
+    .call-float {
+        padding: 15px;
+        bottom: 20px;
+        left: 20px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+    }
+
+    .slider-logo-watermark {
+        display: none;
     }
 }
