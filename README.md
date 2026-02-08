@@ -1,59 +1,51 @@
 # Jai Shree Ram Cooling Care Website
 
-Welcome to the official website project for **Jai Shree Ram Cooling Care**, a premium service provider for Air Conditioning, Chillers, and Refrigerators.
+Welcome to the official website project for **Jai Shree Ram Cooling Care**, a premium service provider for Air Conditioning, Chillers, and Refrigerators in Jamshedpur.
+
+## Live Website
+Visit the live site here: **https://jsr-cooling-care-f7c64.web.app**
 
 ## Project Structure
 - `index.html`: Main landing page structure.
-- `styles.css`: Custom premium styling with modern aesthetics.
-- `script.js`: Interactive elements (Mobile menu, smooth scroll).
-- `assets/images/`: Images for the website.
-- `app.yaml`: Deployment config for Google App Engine.
-- `Dockerfile`: Container config for Google Cloud Run.
+- `css/`: Directory containing all modular CSS files.
+  - `variables.css`: Design tokens and color palette.
+  - `layout.css`: Base layout and reset styles.
+  - `components.css`: Individual UI components (Buttons, Cards, Nav).
+  - `sections.css`: Specific styles for home, about, services, etc.
+  - `animations.css`: Scroll reveal and hover effects.
+  - `responsive.css`: Media queries for mobile and tablet adaptation.
+- `js/`: Directory for modular JavaScript functionality.
+  - `navbar.js`: Responsive mobile menu logic.
+  - `slider.js`: Hero section image slider.
+  - `form.js`: Contact form handling.
+  - `animations.js`: Scroll reveal logic.
+- `assets/images/`: Optimized WebP images for the website.
+- `firebase.json` & `.firebaserc`: Deployment configuration for Firebase Hosting.
 
 ## Features
-- **Responsive Design**: Looks great on Mobile, Tablet, and Desktop.
+- **Responsive Design**: Optimized for Mobile, Tablet, and Desktop.
+- **Performance Optimized**: Uses next-gen WebP image formats for fast loading.
 - **Premium UI**: Modern gradients, glassmorphism headers, and smooth animations.
 - **Service Showcase**: Dedicated sections for AC, Chiller, and Fridge services.
-- **Contact Form**: Integrated UI for customer inquiries.
-
-## Deployment on Google Cloud Platform (GCP)
-
-### Option 1: Google App Engine (Recommended for Static Sites)
-1. Install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install).
-2. Initialize your project:
-   ```bash
-   gcloud init
-   ```
-3. Deploy the application:
-   ```bash
-   gcloud app deploy
-   ```
-4. Visit your site at `https://[YOUR_PROJECT_ID].uc.r.appspot.com`.
-
-### Option 2: Google Cloud Run
-1. Build the container image:
-   ```bash
-   gcloud builds submit --tag gcr.io/[YOUR_PROJECT_ID]/cooling-care-site
-   ```
-2. Deploy to Cloud Run:
-   ```bash
-   gcloud run deploy cooling-care-site --image gcr.io/[YOUR_PROJECT_ID]/cooling-care-site --platform managed
-   ```
-3. Allow unauthenticated invocations if prompted to make it public.
-
-### Option 3: Firebase Hosting
-1. Install Firebase CLI: `npm install -g firebase-tools`
-2. Run `firebase init` and select Hosting.
-3. Choose `.` as the public directory.
-4. Run `firebase deploy`.
+- **Contact Form**: Integrated UI connecting to Formspree for inquiries.
+- **SEO Ready**: Includes structured data, meta tags, sitemap.xml, and robots.txt.
 
 ## Local Development
-To view the site locally, simply open `index.html` in your browser.
-For a better experience (hot functionality), use a simple HTTP server:
-```bash
-python3 -m http.server
-```
-Then visit `http://localhost:8000`.
+1. Clone the repository.
+2. Serve the directory using a simple HTTP server:
+   ```bash
+   python3 -m http.server
+   ```
+3. Visit `http://localhost:8000` in your browser.
+
+## Deployment
+This project is configured for **Firebase Hosting**.
+To deploy updates:
+1. Ensure you have Firebase CLI installed (`npm install -g firebase-tools`).
+2. Run the deployment command:
+   ```bash
+   firebase deploy
+   ```
 
 ---
-© 2025 Jai Shree Ram Cooling Care.
+© 2026 Jai Shree Ram Cooling Care.
